@@ -25,7 +25,7 @@ fido = Dog.new;
 # `puts fido` puts out the memory location in the computer of the newly created dog instance, `fido`, to the terminal.
 # =>#<Dog:0x00007febd8050ae8>
 # The above output is called Ruby Object Notation and it's Ruby's way of telling you that you are dealing with an object or an instance of a class.
-# 0x00007febd8050ae8 is called the object identifier and is where the object lives inside your computer
+# 0x00007febd8050ae8 is called the object identifier and is where the object lives inside your computer.
 puts "`fido`'s object identifier is: " + fido.to_s;
 puts fido;
 
